@@ -10,3 +10,5 @@ axum = { version = "0.6.20", features = ["macros"] }
 serde = { version = "1.0.188", features = ["derive"] }
 tokio = { version = "1.32.0", features = ["full"] }
 validator = { version = "0.16.1", features = ["derive"] }
+sqlx = { version = "0.7", features = [ "runtime-tokio", "sqlite" ] }
+uuid = { version = "1.4.1", features = ["v4"] }
