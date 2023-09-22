@@ -1,0 +1,12 @@
+[package]
+name = "rust_green_field"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = { version = "0.6.20", features = ["macros"] }
+serde = { version = "1.0.188", features = ["derive"] }
+tokio = { version = "1.32.0", features = ["full"] }
+validator = { version = "0.16.1", features = ["derive"] }
